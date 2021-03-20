@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+.madeby {
+  width: fit-content;
+  margin: auto;
+  margin-top: 7px;
+  color: #1c1427;
+  font-weight: 600;
+}
+.link {
+  text-decoration: underline 2px #3c324b;
+  color: #3c324b;
+}

@@ -1,0 +1,37 @@
+.todoContainer {
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr 1fr;
+  gap: 10px;
+  background-color: #40394a;
+  height: 50px;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #ccffbd;
+  font-size: 22px;
+  margin-top: 15px;
+  box-shadow: 3px 5px 5px #1c1427;
+}
+
+.btn {
+  width: 110px;
+  margin: 0 10px;
+  height: 30px;
+  background-color: #1c1427;
+  color: #ccffbd;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: #312442;
+  border: 2px solid #1c1427;
+}
+
+.btn:active {
+  background-color: #1c1427;
+  transform: translateY(2px);
+}

@@ -1,0 +1,67 @@
+.container {
+  width: 90%;
+  height: 88vh;
+  background-color: #7eca9c;
+  margin: auto;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 5px 10px rgb(24, 24, 24);
+  overflow-y: scroll;
+}
+.title {
+  text-align: center;
+  color: #1c1427;
+}
+.type {
+  color: #1c1427;
+  border-bottom: 3px solid grey;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 30%;
+
+  height: 35px;
+  color: #ccffbd;
+  background-color: #1c1427;
+  border: none;
+  outline: none;
+  margin-left: 35%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #312442;
+  border: 2px solid #1c1427;
+}
+
+.btn:active {
+  background-color: #1c1427;
+  transform: translateY(2px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #312442;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1c1427;
+  border-radius: 10px;
+}
